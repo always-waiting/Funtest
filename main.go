@@ -23,16 +23,16 @@ func MergeArray3(dest []string, src []string) []string {
 	return dest
 }
 
-func main() {
-	a1 := []string{"a", "b", "e"}
-	a2 := []string{"c", "d", "a", "a", "a"}
-	m1 := MergeArray1(a1, a2)
-	m2 := MergeArray2(a1, a2)
-	m3 := MergeArray3(a1, a2)
-	fmt.Println(cap(m1))
-	fmt.Println(cap(m2))
-	fmt.Println(cap(m3))
-}
+//func main() {
+//	a1 := []string{"a", "b", "e"}
+//	a2 := []string{"c", "d", "a", "a", "a"}
+//	m1 := MergeArray1(a1, a2)
+//	m2 := MergeArray2(a1, a2)
+//	m3 := MergeArray3(a1, a2)
+//	fmt.Println(cap(m1))
+//	fmt.Println(cap(m2))
+//	fmt.Println(cap(m3))
+//}
 
 /*
 func main() {
